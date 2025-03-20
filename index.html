@@ -6,10 +6,10 @@
   <title>Practice</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-purple-900">
+<body class="bg-purple-900 box-border">
   <!-- Navigation BAr -->
-  <nav class="p-5 container mx-auto h-24">
-    <div class="flex justify-between items-center">
+  <nav class="p-5 mx-auto h-24">
+    <div class="flex justify-around items-center">
       <div class="text-xl font-bold text-white flex gap-2 items-center cursor-pointer">
         <span>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
@@ -18,7 +18,7 @@
           
         </span>
         <span >
-          MMFS
+          EncoderBytes
         </span>
       </div>
       <div class="text-white font-bold">
@@ -36,10 +36,28 @@
   </nav>
 
   <!-- Hero Section -->
-  <main class="bg-purple-700 rounded-lg h-120 mx-6 ">
+  <main class="rounded-lg bg-purple-700 h-120 mx-6 ">
     
-    <div class="bg-[url('/img/image-1.png')] bg-contain bg-right bg-no-repeat h-120 opacity-50">
-      <!-- Your content here -->
+    <div class="bg-[url('/img/ramadan.png')] bg-cover bg-right bg-no-repeat h-120">
+      <div class="flex justify-evenly items-center text-center flex-col gap-30">
+        <div class="font-black  text-6xl text-center mt-25 text-yellow-400 ">
+          Creating a Website Layout with <br>
+          <span class="text-[#FEF9ED] underline">Tailwind CSS</span> 
+          in <span class="text-[#FEF9ED] underline">5 minutes</span>
+        </div>
+        
+        <div class="">
+          <button class="bg-purple-300 text-yellow-700 font-bold py-2 px-5 rounded-full flex justify-center gap-4 items-evenly cursor-pointer flex items-center justify-center hover:text-purple-600">
+            <span class="text-lg">Start free today</span> 
+            <span class="rounded-full bg-purple-700 p-1 ">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-white text-yellow-400">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+          </span>
+        </button>
+        </div>
+      </div>
+      
     </div>
     
   </main>
